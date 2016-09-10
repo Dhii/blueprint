@@ -31,4 +31,11 @@ interface BlueprintInterface
      * @return string A string for the name of object that the blueprint describes.
      */
     public function getBuildName();
+
+    /**
+     * Gets the blueprints that need to be built into dependant objects.
+     *
+     * @return BlueprintInterface[] An array of blueprint instances.
+     */
+    public function getDependencies();
 }
