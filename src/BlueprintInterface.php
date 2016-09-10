@@ -20,8 +20,15 @@ interface BlueprintInterface
      * This data should represent the object to be built. Instances considered to be equal should return the same data
      * set whereas instances considered to be not equal must return different data sets.
      * 
+     *
      * @return array An array containing the build data.
      */
     public function getBuildData();
 
+    /**
+     * Gets the name of the object described by this blueprint.
+     *
+     * @return string A string for the name of object that the blueprint describes.
+     */
+    public function getBuildName();
 }
