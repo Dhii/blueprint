@@ -14,6 +14,13 @@ namespace Dhii\Blueprint;
 interface BlueprintInterface
 {
     /**
+     * Gets the name of the object described by this blueprint.
+     *
+     * @return string A string for the name of object that the blueprint describes.
+     */
+    public function getBuildName();
+
+    /**
      * Gets the blueprint's build data.
      *
      * This data should represent the object to be built. Instances considered to be equal should return the same data
@@ -22,13 +29,6 @@ interface BlueprintInterface
      * @return array An array containing the build data.
      */
     public function getBuildData();
-
-    /**
-     * Gets the name of the object described by this blueprint.
-     *
-     * @return string A string for the name of object that the blueprint describes.
-     */
-    public function getBuildName();
 
     /**
      * Gets the blueprints that need to be built into dependant objects.
