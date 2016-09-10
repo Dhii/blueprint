@@ -14,6 +14,9 @@ interface BuilderInterface
      * Builds an object based on the given blueprint instance.
      * 
      * @param BlueprintInterface $blueprint The blueprint to use for building.
+     *
+     * @throws \Dhii\Bluepriint\UnsupportedBlueprintException If the builder does not support the given blueprint.
+     *
      * @return mixed The built result.
      */
     public function build(BlueprintInterface $blueprint);
