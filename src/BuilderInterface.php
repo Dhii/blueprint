@@ -18,4 +18,12 @@ interface BuilderInterface
      */
     public function build(BlueprintInterface $blueprint);
 
+    /**
+     * Checks if this builder supports a specific build type.
+     *
+     * @param BlueprintInterface $blueprint The blueprint instance to check for support.
+     *
+     * @return bool True if the builder can build the given type, false if not.
+     */
+    public function supports(BlueprintInterface $blueprint);
 }
