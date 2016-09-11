@@ -1,6 +1,6 @@
 <?php
 
-namespace Dhii\Bluepriint;
+namespace Dhii\Blueprint;
 
 /**
  * Exception class used when a builder is given a blueprint that it does not suport.
