@@ -21,7 +21,14 @@
         "phpunit/phpunit": "^4.8"
     },
     "autoload": {
-        "psr-4": {"Dhii\\Blueprint\\": "src/"}
+        "psr-4": {
+            "Dhii\\Blueprint\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dhii\\Blueprint\\UnitTest\\": "test/unit"
+        }
     },
     "repositories": [
         {
