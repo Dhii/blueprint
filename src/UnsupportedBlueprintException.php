@@ -12,10 +12,10 @@ class UnsupportedBlueprintException extends \Exception
     /**
      * {@inheritdoc}
      *
-     * @param \Dhii\Bluepriint\BuilderInterface   $builder   The builder instance.
-     * @param \Dhii\Bluepriint\BlueprintInterface $blueprint The blueprint instance.
-     * @param int                                 $code      The exception code.
-     * @param \Exception                          $previous  The previous exception in the chain.
+     * @param BuilderInterface   $builder   The builder instance.
+     * @param BlueprintInterface $blueprint The blueprint instance.
+     * @param int                $code      The exception code.
+     * @param \Exception         $previous  The previous exception in the chain.
      */
     public function __construct(BuilderInterface $builder, BlueprintInterface $blueprint, $code = 0, \Exception $previous = null)
     {
