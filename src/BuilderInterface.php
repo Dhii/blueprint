@@ -14,7 +14,7 @@ interface BuilderInterface
      *
      * @param BlueprintInterface $blueprint The blueprint to use for building.
      *
-     * @throws \Dhii\Bluepriint\UnsupportedBlueprintException If the builder does not support the given blueprint.
+     * @throws UnsupportedBlueprintException If the builder does not support the given blueprint.
      *
      * @return mixed The built result.
      */
