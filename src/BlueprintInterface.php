@@ -22,11 +22,4 @@ interface BlueprintInterface
      * @return array An array containing the build data.
      */
     public function getBuildData();
-
-    /**
-     * Gets the blueprints that need to be built into dependant objects.
-     *
-     * @return BlueprintInterface[] An array of blueprint instances.
-     */
-    public function getDependencies();
 }
