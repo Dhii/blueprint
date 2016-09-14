@@ -1,5 +1,5 @@
 {
-    "name": "dhii/blueprint",
+    "name": "dhii/blueprint-interface",
     "description": "A standard library for the blueprint-builder design pattern.",
     "keywords": ["blueprint", "builder"],
     "license": "MIT",

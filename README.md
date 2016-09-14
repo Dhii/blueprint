@@ -1,4 +1,4 @@
-# Blueprint
+# The Blueprint-Builder Design Pattern
 
 This library provides a standard for the blueprint-builder design pattern. This design pattern is inspired by the Blueprint mechanism in UE4.
 
